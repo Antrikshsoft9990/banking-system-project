@@ -1,0 +1,20 @@
+Blueprint:-
+
+step1:-create dummy data of 10 users in mysql.
+step2:-attributes in data are name,email and current balance.
+step3:-home page with options:-1.view all the Customers.
+				2.tranfer Money.
+				3.check bank balance.
+step4:-tranfer money page options:-1.account no.
+				   2.name
+				   3.bank name
+				   4.amount
+				   5.sender section:-
+				   6.account no.
+				   7.bank name
+				   8.tranfer button 
+				   9.message send successfully.
+step5:-bank section page (only bank can view) view all customers
+	details .
+step6:-create a database for transfering money details.
+step7:-exit.

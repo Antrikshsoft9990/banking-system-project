@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check bank balance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Balance Check</h1>
+        <p>Enter your details</p>
+        <form>
+            <label for="account_no">Acount Number: </label>
+            <input type="number" id="ac" required />
+            <br>
+            <label for="name">Name: </label>
+            <input type="text" id="name" required />
+            <br>
+            <button class="btn" onclick="getBalance()">Check balance </button>
+            <br>
+            <h3>Account Balance: </h3>
+            <p id="balance">-</p>
+        </form>
+    </div>
+<script src="script.js"></script>   
+</body>
+</html>

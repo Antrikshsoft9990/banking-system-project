@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    text-align: center;
+    margin: 100px;
+    background: aliceblue;
+    border: 10px solid cornflowerblue;
+    border-radius: 40px;
+}
+h1 {
+    font-size: 45px;
+    text-decoration: underline;
+    margin: 23px;
+}
+
+p {
+    font-size: 21px;
+    margin: 22px;
+    font-style: italic;
+}
+
+input {
+    margin: 8px;
+    padding: 3px;
+    width: 20%;
+}
+.btn{
+    padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px;
+}
+.btn:hover{
+     background-color: #45a049;
+}
+  

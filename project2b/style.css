@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /*this is the step where you can write text over the image */
+.container{
+     background: url(bank.jpg);
+     width: 100vw;
+     height: 100vh;
+     background-size: cover;
+     position: relative;
+     text-align: center;
+     color: black;
+}
+h1{
+        font-size: 105px;
+        color: darkorange;
+        text-shadow: 4px 5px 6px aqua;
+}
+h3 {
+    font-size: 43px;
+    color: blue;
+    text-decoration: underline;
+    padding: 20px;
+}
+.container1 {
+    font-size: 33px;
+    color: crimson;
+    padding: 20px;
+}
+.container2 {
+    font-size: 33px;
+    color: crimson;
+    padding: 20px;
+}
+.container3 {
+    font-size: 33px;
+    color: crimson;
+    padding: 20px;
+}
+a:hover{
+    color: blue;
+    cursor: pointer;
+}

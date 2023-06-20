@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    text-align: center;
+    margin: 100px;
+    background: aqua;
+    border: 10px solid cornflowerblue;
+    border-radius: 40px;
+}
+
+h1 {
+    color: darkmagenta;
+    font-size: 44px;
+}
+p {
+    margin: 12px;
+    font-size: 28px;
+    color: blue;
+    text-decoration: underline;
+}
+input {
+    width: 50%;
+    margin: 8px;
+    padding: 12px;
+    border: 3px solid yellow;
+    border-radius: 14px;
+}
+.btn {
+    margin: 21px;
+    border: 14px solid blue;
+    color: red;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
